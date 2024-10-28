@@ -19,6 +19,14 @@
     justify-content: space-between;
     flex-wrap: wrap;
   }
+  .btn {
+    padding: 15px 50px;
+  }
+  
+  .clearfix img {
+    float: left;
+    padding-right: 10px;
+  }
   
 
 
