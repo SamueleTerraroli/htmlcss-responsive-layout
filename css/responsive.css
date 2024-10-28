@@ -32,3 +32,23 @@
   }
   
 }
+@media (min-width:992px) {
+  .quick-notes ul{
+    display: block;
+}
+  .recipe-card{
+    display: flex;
+  }
+  .recipe-video{
+    width:70%;
+    height: 36vw;
+
+  }
+  .btn {
+    padding: 15px 75px;
+  }
+
+
+
+
+}
