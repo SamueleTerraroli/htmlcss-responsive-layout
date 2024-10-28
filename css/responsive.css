@@ -30,6 +30,9 @@
   .ads{
     display: block;
   }
+  .btn-orange {
+    padding: 10px 15px;
+  }
   
 }
 @media (min-width:992px) {
@@ -38,15 +41,30 @@
 }
   .recipe-card{
     display: flex;
+    justify-content: space-between;
   }
   .recipe-video{
     width:70%;
     height: 36vw;
 
   }
+  .recipe-info{
+    padding: 20px 50px
+
+  }
   .btn {
     padding: 15px 75px;
   }
+  .btn-orange {
+    padding: 10px 15px;
+  }
+
+  footer{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+  }
+
 
 
 
