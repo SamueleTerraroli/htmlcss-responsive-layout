@@ -16,11 +16,13 @@
   }
   .quick-notes ul{
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
   }
+  .quick-notes ul li{
+    flex-basis: calc(100%/3);
+  }
   .btn {
-    padding: 15px 50px;
+    flex-basis: 20%;
   }
   
   .clearfix img {
@@ -41,15 +43,15 @@
 }
   .recipe-card{
     display: flex;
-    justify-content: space-between;
   }
   .recipe-video{
-    width:70%;
-    height: 36vw;
+    flex-basis: 70%;
+    max-height: 420px;
 
   }
   .recipe-info{
-    padding: 20px 50px
+    padding: 20px 50px;
+    flex-basis: 30%;
 
   }
   .btn {
@@ -64,6 +66,7 @@
     justify-content: space-between;
     text-align: left;
   }
+
 
 
 
